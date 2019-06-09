@@ -40,6 +40,6 @@ module.exports = app => {
     req.logout();
     // req.session = null;
 
-    res.redirect("/");
+    res.redirect("http://localhost:3000/");
   });
 };

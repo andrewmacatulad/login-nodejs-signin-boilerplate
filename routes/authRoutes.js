@@ -68,7 +68,7 @@ module.exports = app => {
     req.logout();
     // req.session = null;
 
-    res.redirect("/");
+    res.redirect("http://localhost:3000/");
     // res.send("logout");
     // req.session.destroy(function(err) {
     //   res.clearCookie("connect.sid");
